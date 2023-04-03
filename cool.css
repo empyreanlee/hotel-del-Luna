@@ -1,0 +1,132 @@
+.top-bar {
+  background-color: goldenrod;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 4px;
+  position: fixed;
+    top: 0;
+    width: 99%;
+
+}
+.logo {
+  text-align: center;
+}
+.logo img {
+  max-height: 76px;
+  vertical-align: middle;
+} 
+.left-nav ,
+.right-nav {
+  color: black;
+  display: flex;
+  font-weight: bolder;
+
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.left-nav a:hover,
+.right-nav a:hover {
+  text-decoration: underline;
+}
+body{
+
+  background-color: ghostwhite;
+}
+.homes{
+  display:inline-block;
+background-color: whitesmoke;
+font-size: 20px;  
+}
+.homes p.merge{
+font-size: 20px;
+font-weight: bold;
+color: dark;
+}
+.homes p.op{
+  text-align: center;
+  font-style: oblique;
+  font-weight: 600;
+}
+.homes h1.men{
+color :goldenrod;
+font-style: italic;
+font-size: 50px;
+
+  }
+.new  {
+  font-size: 25px;
+  
+  font-family:sans-serif ;
+}/*
+.column {
+  width: 400px height: 600px;
+}*/
+      input[type=text],[type=eml],[type=int],[type=date]{
+	width: 20%;
+	padding: 5px ;
+  outline: 0;
+	border: 0;
+	border-bottom: 1px solid black ;
+  background-color:transparent;
+}
+.header {
+  font-size: 25px;
+  color: black;
+  background-color: aliceblue;
+
+  }
+  .header p.stylist{
+ color: dark;
+ font-weight: bold;
+ font-size: 20px;
+    }
+    .header h1.style{
+      color: goldenrod;
+      font-style: italic;
+      font-size: 50px;
+
+      }
+
+  .head{
+    align-items: left;
+    display: inline-block;
+    font-size: 20px;
+    }
+    .head p.ten{
+      color: black;
+      font-weight: bold;
+      font-size: 25px;
+    
+    }
+    .head h1.tenten{
+      color: goldenrod;
+      font-style: italic;
+      font-size: 50px;
+
+    }
+    .one{
+      display: inline;
+      font-size: 20px;
+      background-color: navajowhite;
+    }
+
+    .one p.onea{
+      color: black;
+      font-weight: bold;
+      font-size: 25px;
+    
+    }
+    .one h1.oneb{
+      color: goldenrod;
+      font-style: italic;
+      font-size: 50px;
+    
+    }
+
+    div#rotator {
+      position:relative;
+      height:345px;
+    }
